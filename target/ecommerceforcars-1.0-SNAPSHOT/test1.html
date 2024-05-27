@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Car Information</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <img src="images/photo_2023-05-21_10-43-56.jpg" alt="Car Image"> 
+    <div class="car-info">
+      <h2>Brand Name</h2>
+      <p>Model Name</p>
+      <p>Price: $XX,XXX</p>
+      <p>Year of Creation: XXXX</p>
+      <p>Quantity: XX</p>
+      <button class="popup-btn">Show Details</button>
+  
+  <div class="popup-overlay">
+    <div class="popup-content">
+      <h2>Details</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in felis sed erat fermentum venenatis. Sed sollicitudin varius magna, id semper est aliquam in. Nam malesuada sagittis dui, in ultrices libero. Nulla facilisi.</p>
+      <button class="close-btn">Close</button>
+    </div>
+  </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <img src="images/photo_2023-05-21_10-43-56.jpg" alt="Car Image">
+    <div class="car-info">
+      <h2>Brand Name</h2>
+      <p>Model Name</p>
+      <p>Price: $XX,XXX</p>
+      <p>Year of Creation: XXXX</p>
+      <p>Quantity: XX</p>
+    
+      <button class="popup-btn">Show Details</button>
+  
+  <div class="popup-overlay">
+    <div class="popup-content">
+      <h2>Details</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in felis sed erat fermentum venenatis. Sed sollicitudin varius magna, id semper est aliquam in. Nam malesuada sagittis dui, in ultrices libero. Nulla facilisi.</p>
+      <button class="close-btn">Close</button>
+    </div>
+  </div>
+</div>
+
+
+  
+  
+  </div>
+
+  <div class="container">
+    <img src="images/photo_2023-05-21_10-43-56.jpg" alt="Car Image">
+    <div class="car-info">
+      <h2>Brand Name</h2>
+      <p>Model Name</p>
+      <p>Price: $XX,XXX</p>
+      <p>Year of Creation: XXXX</p>
+      <p>Quantity: XX</p>
+      <button class="popup-btn">Show Details</button>
+  
+      <div class="popup-overlay">
+        <div class="popup-content">
+          <h2>Details</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in felis sed erat fermentum venenatis. Sed sollicitudin varius magna, id semper est aliquam in. Nam malesuada sagittis dui, in ultrices libero. Nulla facilisi.</p>
+          <button class="close-btn">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <img src="images/photo_2023-05-21_10-43-56.jpg" alt="Car Image">
+    <div class="car-info">
+      <h2>Brand Name</h2>
+      <p>Model Name</p>
+      <p>Price: $XX,XXX</p>
+      <p>Year of Creation: XXXX</p>
+      <p>Quantity: XX</p>
+      <button class="popup-btn">Show Details</button>
+  
+  <div class="popup-overlay">
+    <div class="popup-content">
+      <h2>Details</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in felis sed erat fermentum venenatis. Sed sollicitudin varius magna, id semper est aliquam in. Nam malesuada sagittis dui, in ultrices libero. Nulla facilisi.</p>
+      <button class="close-btn">Close</button>
+    </div>
+  </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <img src="images/photo_2023-05-21_10-43-56.jpg" alt="Car Image">
+    <div class="car-info">
+      <h2>Brand Name</h2>
+      <p>Model Name</p>
+      <p>Price: $XX,XXX</p>
+      <p>Year of Creation: XXXX</p>
+      <p>Quantity: XX</p>
+      <button class="popup-btn">Show Details</button>
+  
+      <div class="popup-overlay">
+        <div class="popup-content">
+          <h2>Details</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in felis sed erat fermentum venenatis. Sed sollicitudin varius magna, id semper est aliquam in. Nam malesuada sagittis dui, in ultrices libero. Nulla facilisi.</p>
+          <button class="close-btn">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+  <script>
+
+  // JavaScript code to handle the popup functionality
+document.addEventListener('DOMContentLoaded', function() {
+  const popupBtns = document.querySelectorAll('.popup-btn');
+  const closeBtns = document.querySelectorAll('.close-btn');
+  const overlays = document.querySelectorAll('.popup-overlay');
+  const contents = document.querySelectorAll('.popup-content');
+
+  popupBtns.forEach((btn, index) => {
+    btn.addEventListener('click', function() {
+      overlays[index].style.display = 'block';
+      contents[index].style.display = 'block';
+    });
+  });
+
+  closeBtns.forEach((btn, index) => {
+    btn.addEventListener('click', function() {
+      overlays[index].style.display = 'none';
+      contents[index].style.display = 'none';
+    });
+  });
+});
+      </script>
+</body>
+</html>

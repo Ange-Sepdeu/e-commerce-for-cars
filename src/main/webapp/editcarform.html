@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Cars</title>
+    <link rel="stylesheet" href="styleaddcar.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Edit Car</h2>
+        <button onclick="window.history.back()">← Go Back</button>
+        <form>
+            <label for="brand">Brand Name:</label>
+            <input type="text" id="brand" name="brand"><br><br>
+
+            <label for="model">Model Name:</label>
+            <input type="text" id="model" name="model"><br><br>
+
+            <label for="year">Year:</label>
+            <input type="text" id="year" name="year"><br><br>
+
+            <label for="price">Price:</label>
+            <input type="text" id="price" name="price"><br><br>
+
+            <label for="quantity">Number of Cars:</label>
+            <input type="text" id="quantity" name="quantity"><br><br>
+
+            <label for="image">Image:</label>
+            <input type="file" id="image" name="image"><br><br>
+
+            <label for="description">Description:</label><br>
+            <textarea id="description" name="description" rows="4" cols="50"></textarea><br><br>
+
+            <button type="submit">Edit Car</button>
+        </form>
+    </div>
+</body>
+</html>

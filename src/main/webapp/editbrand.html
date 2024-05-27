@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="container">
+        <h2>Edit Car</h2>
+        <button onclick="window.history.back()">← Go Back</button>
+        <form action="UpdateBrand" method="POST">
+            <label for="brand">Brand Name:</label>
+            <input type="text" id="brand" value=${activeBrand.} name="brandName"><br><br>
+
+            <label for="description">Description:</label><br>
+            <textarea id="description" name="description" rows="4" cols="50"></textarea><br><br>
+
+            <button type="submit">Edit brand</button>
+        </form>
+    </div>
+    </body>
+</html>
