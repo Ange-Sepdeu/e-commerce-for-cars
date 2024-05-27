@@ -143,6 +143,8 @@ public class CarCrud {
     }
     public static int reduceCarNumber(Car car, int number) {
         int status = 0;
+        if (car.getNumberOfCarsAvailable() < number)
+            return status;
         int actualNumber = car.getNumberOfCarsAvailable() - number;
         String sql = "UPDATE Cars SET numberOfCarsAvailable=? WHERE carId=?";
         try {
