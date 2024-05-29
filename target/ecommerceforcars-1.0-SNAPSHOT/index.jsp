@@ -144,7 +144,7 @@
                         <p>
                             There are no ugly Bugatti Chirons—or at least we haven't seen any—and the brand's newest one-of-one commission is anything but. On the contrary, Sur Mesure's latest creation is a cut above, using Bugatti's two-tone paint scheme to its full appeal. Called the "55 One of One," this bespoke Chiron Super Sport is a rolling homage to Bugatti's storied past. As the name implies, the newest creation honors the Type 55 Super Sport designed by Jean Bugatti.
                         </p>
-                            <a href="https://www.caranddriver.com/news/a60896423/bugatti-chiron-55-one-of-one-details/" class="btn-read-more">Read More</a>
+                            <a href="about.html" class="btn-read-more">Read More</a>
                     </div>
             </div>
         </section>
@@ -158,7 +158,7 @@
                 <div class="footer-links"> 
                     <ul> 
                         <li><a href="#">Home</a>
-                        </li> <li><a href="#">About Us</a>
+                        </li> <li><a href="about.html">About Us</a>
                         </li> <li><a href="#">News</a></li>
                         <li><a href="#">Contact</a></li> 
                     </ul> 
